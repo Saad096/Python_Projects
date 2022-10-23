@@ -1,6 +1,6 @@
 import random
 import pyperclip
-from tkinter import *
+from tkinter import Tk, END, IntVar
 from tkinter.ttk import *
 def low():
 	entry.delete(0, END)
